@@ -36,7 +36,7 @@ set cpo&vim
 "-------------------- 文字コード認識部 開始 --------------------
 
 if &encoding !=# 'utf-8'
-　set encoding=japan
+  set encoding=japan
   set fileencoding=japan
 endif
 if has('iconv')
